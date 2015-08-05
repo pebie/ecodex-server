@@ -1,0 +1,64 @@
+{
+  "name": "ecodex",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "faction": {
+      "type": "string",
+      "required": true
+    },
+    "battleFieldRole": {
+      "type": "string",
+      "required": true
+    },
+    "pointsCost": {
+      "type": "number",
+      "required": true
+    },
+    "unitName": {
+      "type": "string",
+      "required": true
+    },
+    "unitType": {
+      "type": "string",
+      "required": true
+    },
+    "unitProfile": {
+      "type": "object",
+      "required": true
+    },
+    "unitComposition": {
+      "type": "string",
+      "required": true
+    },
+    "wargear": {
+      "type": "object",
+      "required": true
+    },
+    "warlordTraits": {
+      "type": "string"
+    },
+    "specialRules": {
+      "type": "object"
+    },
+    "options": {
+      "type": "object"
+    },
+    "uniqueItems": {
+      "type": "object"
+    },
+    "unitDescription": {
+      "type": "string"
+    },
+    "unitImage": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
