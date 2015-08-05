@@ -1,6 +1,6 @@
 {
-  "name": "ecodex",
-  "base": "PersistedModel",
+  "name": "datasheets",
+  "base": "ACL",
   "idInjection": true,
   "options": {
     "validateUpsert": true
@@ -35,20 +35,20 @@
       "required": true
     },
     "wargear": {
-      "type": "object",
+      "type": "array",
       "required": true
     },
     "warlordTraits": {
-      "type": "string"
+      "type": "array"
     },
     "specialRules": {
-      "type": "object"
+      "type": "array"
     },
     "options": {
-      "type": "object"
+      "type": "array"
     },
     "uniqueItems": {
-      "type": "object"
+      "type": "array"
     },
     "unitDescription": {
       "type": "string"
