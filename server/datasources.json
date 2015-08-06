@@ -1,7 +1,9 @@
 {
   "ecodex": {
-    "url": "mongodb://localhost:27017/ecodex",
-    "name": "ecodex",
-    "connector": "mongodb"
+    "database":"heroku_zv8zndvh",
+    "name": "heroku_zv8zndvh",
+    "connector": "mongodb",
+    "host":"ds031203.mongolab.com",
+    "port":"31203"
   }
 }
