@@ -1,9 +1,4 @@
 {
   "ecodex": {
-    "database":"heroku_zv8zndvh",
-    "name": "heroku_zv8zndvh",
-    "connector": "mongodb",
-    "host":"ds031203.mongolab.com",
-    "port":"31203"
   }
 }
