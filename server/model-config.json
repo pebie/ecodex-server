@@ -18,5 +18,11 @@
     "public": true,
     "$promise": {},
     "$resolved": true
+  },
+  "factions": {
+    "dataSource": "ecodex",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   }
 }
