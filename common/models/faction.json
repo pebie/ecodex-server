@@ -1,5 +1,5 @@
 {
-  "name": "factions",
+  "name": "faction",
   "base": "ACL",
   "strict": false,
   "idInjection": false,
@@ -9,7 +9,6 @@
   "properties": {
     "name": {
       "type": "string",
-      "id": false,
       "required": true
     }
   },
